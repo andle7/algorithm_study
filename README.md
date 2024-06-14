@@ -46,7 +46,7 @@ commit -m "[Add]2024/06/14 p1000 -java"
 ```
 
 # 문제집&목표 리스트<br>
-https://www.acmicpc.net/group/workbook/21059<br>
+스터디 주소: https://www.acmicpc.net/group/workbook/21059<br>
 
 > 문제집을 푸는 순서는 따로 없습니다.<br>
 > 다만, 솔브닥에서 클래스 1 ~ 4 클래스<br>
