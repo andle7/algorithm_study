@@ -76,7 +76,7 @@ commit -m "[Add]2024/06/14 p1000 -java"
 
 # 깃허브(GitHub) 웹훅을 활용해 슬랙(Slack)에 이벤트 전달하기<br>
 
-1.
+#1.
 ![image](https://github.com/andle7/algorithm_study/assets/128995184/0c817931-33a8-443c-a191-b091e43195db)
 
 > https://hooks.slack.com/services/T075XEM0DGQ/B0783CJH1DZ/[보안사항]<br>
@@ -85,13 +85,13 @@ commit -m "[Add]2024/06/14 p1000 -java"
 
 <br><br>
 
-2.
+#2.
 ![image](https://github.com/andle7/algorithm_study/assets/128995184/4516724e-f6f9-4f4b-95bf-fb37ab399821)
 > push를 할 때 마다 슬랙에 알림이 오게 됩니다.
 
 <br><br>
 
-3.
+#3.
 ![image](https://github.com/andle7/algorithm_study/assets/128995184/151efda5-36b4-4d71-9987-eb55eab59a75)
 > 링크를 타고 들어가서 상대방의 코드를 보고 리뷰혹은 조언도 가능합니다.<br>
 
