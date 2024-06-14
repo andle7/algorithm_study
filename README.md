@@ -81,3 +81,8 @@ commit -m "[Add]2024/06/14 p1000 -java"
 > 위의 웹훅 주소를 PayloadURL에 붙여넣으시면 됩니다.
 > 웹훅 주소를 유출 시킬 수 없기 때문에... 자세한 웹훅 주소는 스터디 장에게 문의하기<br>
 
+![image](https://github.com/andle7/algorithm_study/assets/128995184/4516724e-f6f9-4f4b-95bf-fb37ab399821)
+> push를 할 때 마다 슬랙에 알림이 오게 됩니다.
+
+![image](https://github.com/andle7/algorithm_study/assets/128995184/151efda5-36b4-4d71-9987-eb55eab59a75)
+> 링크를 타고 들어가서 상대방의 코드를 보고 리뷰혹은 조언도 가능합니다.
