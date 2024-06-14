@@ -76,5 +76,6 @@ commit -m "[Add]2024/06/14 p1000 -java"
 ![image](https://github.com/andle7/algorithm_study/assets/128995184/0c817931-33a8-443c-a191-b091e43195db)
 
 > https://hooks.slack.com/services/T075XEM0DGQ/B0783CJH1DZ/[보안사항]<br>
+> 위의 웹훅 주소를 PayloadURL에 붙여넣으시면 됩니다.
 > 웹훅 주소를 유출 시킬 수 없기 때문에... 자세한 웹훅 주소는 스터디 장에게 문의하기<br>
 
