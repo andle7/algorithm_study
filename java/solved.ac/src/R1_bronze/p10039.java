@@ -20,6 +20,5 @@ public class p10039 {
 		avg = (int)(sum/5.0);
 		
 		System.out.println(avg);
-		
 	}
 }
