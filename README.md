@@ -47,9 +47,9 @@ commit -m "[Add]년도/월/일 p문제번호 -언어"
 ```
 
 ex)<br>
-<추가 - [Add[><br>
+<추가 - [add[><br>
 ```sh
-commit -m "[Add]2024/06/14 p1000 -java"
+commit -m "[add]2024/06/14 p1000 -java"
 ```
 <수정 - [fix]><br>
 > 가급적 다 풀고 백준에 맞았다고 나오면 제풀하고,<br>
@@ -62,7 +62,7 @@ commit -m "[fix]2024/06/14 p1000 -java"
 > 리팩토링을 했으면 새로운 파일을 만들어서 _1 _2를 붙이고,<br>
 > 끝에 re를 표시해주면 좋을 것 같습니다.<br>
 ```sh
-commit -m "[Add]2024/06/14 p1000_1re -java"
+commit -m "[re]2024/06/14 p1000_1 -java"
 ```
 
 <br><br>
