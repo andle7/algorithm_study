@@ -112,9 +112,10 @@ commit -m "[Add]2024/06/14 p1000_1re -java"
 <br><br>
 
 #2.
-![image](https://github.com/andle7/algorithm_study/assets/128995184/4516724e-f6f9-4f4b-95bf-fb37ab399821)
+![image](https://github.com/andle7/algorithm_study/assets/128995184/db4068f5-23b8-4c37-8b2c-be0fae8057ba)
 
-> push를 할 때 마다 슬랙에 알림이 오게 됩니다.
+> push를 할 때 마다 슬랙에 알림이 오게 됩니다.<br>
+> 이렇게 커밋 메세지를 보면 언제 어떤 문제를 어떤 언어로 풀었는지 바로 알 수 있습니다.
 
 <br><br>
 
