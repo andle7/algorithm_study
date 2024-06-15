@@ -121,7 +121,7 @@ commit -m "[Add]2024/06/14 p1000_1re -java"
 
 #3.
 
-![image](https://github.com/andle7/algorithm_study/assets/128995184/151efda5-36b4-4d71-9987-eb55eab59a75)
+![image](https://github.com/andle7/algorithm_study/assets/128995184/99a79a57-ebb4-4642-ad04-8951d5431d6e)
 
 > 링크를 타고 들어가서 상대방의 코드를 보고 리뷰혹은 조언도 가능합니다.<br>
 
