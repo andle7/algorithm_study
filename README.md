@@ -117,7 +117,20 @@ commit -m "[re]2024/06/14 p1000_1 -java"
 
 <br><br>
 
-#3.
+#3
+![image](https://github.com/andle7/algorithm_study/assets/128995184/507dc614-b5e1-4ea8-804b-bfcd32dd3dc3)
+> push를 할 때 마다 디스코드에 알림이 오게 됩니다.<br>
+> 이렇게 커밋 메세지를 보면 언제 어떤 문제를 어떤 언어로 풀었는지 바로 알 수 있습니다.
+
+<br><br>
+
+#4.
+![image](https://github.com/andle7/algorithm_study/assets/128995184/eb2ec40c-5388-4fb4-aa98-8d4df29831ad)
+> 링크를 타고 들어가서 상대방의 코드를 보고 리뷰혹은 조언도 가능합니다.<br>
+
+<br><br>
+
+#5.
 ![image](https://github.com/andle7/algorithm_study/assets/128995184/d95ca2ef-1b3e-4398-a286-2451fd65d45f)
 > 정상적으로 commit하고  push하면 녹색 불이 붙은 것을 확인할 수 있습니다. 
 
@@ -125,7 +138,7 @@ commit -m "[re]2024/06/14 p1000_1 -java"
 <b><br><br>
 
 
-
+-※ 디스코드로 이사갔습니다. - <br>
 # 깃허브(GitHub) 웹훅을 활용해 슬랙(Slack)에 이벤트 전달하기<br>
 
 #1.
