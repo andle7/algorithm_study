@@ -130,7 +130,7 @@
 
   <br><br>
   
- <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white">
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 
 # 깃허브(GitHub) 웹훅을 활용해 디스코드(Discord)에 이벤트 전달하기<br>
 
