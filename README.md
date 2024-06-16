@@ -134,7 +134,7 @@
 
 
 
-#  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 깃허브(GitHub) 웹훅을 활용해 디스코드(Discord)에 이벤트 전달하기 <a name = "outline"></a>
+#  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) GitHub 웹훅을 활용해 Discord에 이벤트 전달하기 <a name = "outline"></a>
 
 <details>
    <summary> 본문 확인 (👈 Click)</summary>
@@ -180,7 +180,7 @@
 
 -※ 디스코드로 이사갔습니다. - <br>
 
-# ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) 깃허브(GitHub) 웹훅을 활용해 슬랙(Slack)에 이벤트 전달하기 <a name = "outline"></a>
+# ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) GitHub 웹훅을 활용해 Slack에 이벤트 전달하기 <a name = "outline"></a>
 
 <details>
    <summary> 본문 확인 (👈 Click)</summary>
