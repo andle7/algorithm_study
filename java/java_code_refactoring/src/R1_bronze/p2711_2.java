@@ -10,7 +10,7 @@ public class p2711_2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine().trim());
 
-        // foreach Àû¿ë
+        // foreach ì ìš©
         String[][] arr = new String[N][2];
         for (String[] row : arr) {
 			String[] input = br.readLine().split(" ");
@@ -18,7 +18,7 @@ public class p2711_2 {
 			row[1] = input[1];
 		}
 
-        // ¶÷´Ù½Ä&½ºÆ®¸² Àû¿ë
+        // ëžŒë‹¤ì‹&ìŠ¤íŠ¸ë¦¼ ì ìš©
         Arrays.stream(arr)
               .map(row -> {
                   int indexToRemove = Integer.parseInt(row[0]) - 1;

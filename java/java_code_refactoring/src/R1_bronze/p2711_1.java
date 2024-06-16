@@ -11,7 +11,7 @@ public class p2711_1 {
 
 		String[][] arr = new String[N][2];
 
-		//foreach Àû¿ë
+		//foreach ì ìš©
 		for (String[] row : arr) {
 			String[] input = br.readLine().split(" ");
 			row[0] = input[0];
