@@ -22,6 +22,7 @@
    
 </details>
 
+<br><br>
 
 # :loudspeaker: Rule <a name = "outline"></a>
 
@@ -46,44 +47,56 @@
    4. 가급적 기업 코딩 테스트를 준비한다는 마음가짐으로 자동 완성을 최대한 쓰지 않고 공부 합니다.<br>
 
    5. 룰은 건의에 따라서 달라질 수 있습니다.<br>
+
+
+<br><br>
    
+</details>
+
+<br>
+
+# ✅ Commit 규칙 <a name = "outline"></a>
+
+<details>
+   <summary> 본문 확인 (👈 Click)</summary>
+<br />
+
+   - commit 메시지: 어떤 문제를 풀었는지 표시 할 수 있도록 합니다.<br>
+                    간단하게 p문제번호 로 하셔도 됩니다.<br>
+
+   ```sh
+   commit -m "[add]년도/월/일 p문제번호 -언어"
+   ```
+
+   ex)<br>
+   <추가 - [add]><br>
+   ```sh
+   commit -m "[add]2024/06/14 p1000 -java"
+   ```
+   <수정 - [fix]><br>
+   > 가급적 다 풀고 백준에 맞았다고 나오면 제풀하고,<br>
+   > 만약, 풀리지 않았다면, 주석으로 풀리지 않은 파일임을 표시해주면 좋을 것 같습니다.<br>
+   ```sh
+   commit -m "[fix]2024/06/14 p1000 -java"
+   ```
+
+   <리팩토링 - [re]><br>
+   > 리팩토링을 했으면 새로운 파일을 만들어서 _1 _2를 붙이고,<br>
+   > 끝에 re를 표시해주면 좋을 것 같습니다.<br>
+   ```sh
+   commit -m "[re]2024/06/14 p1000_1 -java"
+   ```
 </details>
 
 
 <br>
 
+# :mountain_bicyclist: 문제집&목표 리스트 <a name = "outline"></a>
 
-### ✅ Commit 규칙
+<details>
+   <summary> 본문 확인 (👈 Click)</summary>
+<br />
 
-- commit 메시지: 어떤 문제를 풀었는지 표시 할 수 있도록 합니다.<br>
-                 간단하게 p문제번호 로 하셔도 됩니다.<br>
-
-```sh
-commit -m "[add]년도/월/일 p문제번호 -언어"
-```
-
-ex)<br>
-<추가 - [add]><br>
-```sh
-commit -m "[add]2024/06/14 p1000 -java"
-```
-<수정 - [fix]><br>
-> 가급적 다 풀고 백준에 맞았다고 나오면 제풀하고,<br>
-> 만약, 풀리지 않았다면, 주석으로 풀리지 않은 파일임을 표시해주면 좋을 것 같습니다.<br>
-```sh
-commit -m "[fix]2024/06/14 p1000 -java"
-```
-
-<리팩토링 - [re]><br>
-> 리팩토링을 했으면 새로운 파일을 만들어서 _1 _2를 붙이고,<br>
-> 끝에 re를 표시해주면 좋을 것 같습니다.<br>
-```sh
-commit -m "[re]2024/06/14 p1000_1 -java"
-```
-
-<br><br>
-
-# 문제집&목표 리스트<br>
 스터디 주소: https://www.acmicpc.net/group/workbook/21059<br>
 > 기타 공지 사항: https://www.acmicpc.net/group/board/view/21059/38409
 <br>
