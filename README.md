@@ -130,83 +130,102 @@
 
   <br><br>
   
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 
-# 깃허브(GitHub) 웹훅을 활용해 디스코드(Discord)에 이벤트 전달하기<br>
 
-#1.
-![image](https://github.com/andle7/algorithm_study/assets/128995184/16de882e-97cd-46c3-b69a-f6366cf2b98e)
-> https://discord.com/api/webhooks/1251734903477899285/[보안사항/github<br>
-> ※ 슬랙과 다르게 디스코드 휍훅 주소는 뒤에 /github을 붙여줘야 합니다.<br>
-> 위의 웹훅 주소를 PayloadURL에 붙여넣으시면 됩니다.<br>
-> Content type은 application/json으로 변경하고 저장하시면 됩니다.<br>
-> 웹훅 주소를 유출 시킬 수 없기 때문에... 자세한 웹훅 주소는 스터디 장에게 문의하기
 
-<br><br>
 
-#2.
-![image](https://github.com/andle7/algorithm_study/assets/128995184/b5badfed-346a-43ac-9de1-3eb985c0fbb9)
-> 바로 웹훅이 붙지 않아서 빨간색 느낌표가 들어가지만 commit을 하고 push하면 정상적으로 되는 것을 확인 할 수 있습니다.
+#  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 깃허브(GitHub) 웹훅을 활용해 디스코드(Discord)에 이벤트 전달하기 <a name = "outline"></a>
 
-<br><br>
+<details>
+   <summary> 본문 확인 (👈 Click)</summary>
+<br />
 
-#3
-![image](https://github.com/andle7/algorithm_study/assets/128995184/507dc614-b5e1-4ea8-804b-bfcd32dd3dc3)
-> push를 할 때 마다 디스코드에 알림이 오게 됩니다.<br>
-> 이렇게 커밋 메세지를 보면 언제 어떤 문제를 어떤 언어로 풀었는지 바로 알 수 있습니다.
+   #1.
+   ![image](https://github.com/andle7/algorithm_study/assets/128995184/16de882e-97cd-46c3-b69a-f6366cf2b98e)
+   > https://discord.com/api/webhooks/1251734903477899285/[보안사항/github<br>
+   > ※ 슬랙과 다르게 디스코드 휍훅 주소는 뒤에 /github을 붙여줘야 합니다.<br>
+   > 위의 웹훅 주소를 PayloadURL에 붙여넣으시면 됩니다.<br>
+   > Content type은 application/json으로 변경하고 저장하시면 됩니다.<br>
+   > 웹훅 주소를 유출 시킬 수 없기 때문에... 자세한 웹훅 주소는 스터디 장에게 문의하기
 
-<br><br>
+   <br><br>
 
-#4.
-![image](https://github.com/andle7/algorithm_study/assets/128995184/eb2ec40c-5388-4fb4-aa98-8d4df29831ad)
-> 링크를 타고 들어가서 상대방의 코드를 보고 리뷰혹은 조언도 가능합니다.<br>
+   #2.
+   ![image](https://github.com/andle7/algorithm_study/assets/128995184/b5badfed-346a-43ac-9de1-3eb985c0fbb9)
+   > 바로 웹훅이 붙지 않아서 빨간색 느낌표가 들어가지만 commit을 하고 push하면 정상적으로 되는 것을 확인 할 수 있습니다.
 
-<br><br>
+   <br><br>
 
-#5.
-![image](https://github.com/andle7/algorithm_study/assets/128995184/d95ca2ef-1b3e-4398-a286-2451fd65d45f)
-> 정상적으로 commit하고  push하면 녹색 불이 붙은 것을 확인할 수 있습니다. 
+   #3
+   ![image](https://github.com/andle7/algorithm_study/assets/128995184/507dc614-b5e1-4ea8-804b-bfcd32dd3dc3)
+   > push를 할 때 마다 디스코드에 알림이 오게 됩니다.<br>
+   > 이렇게 커밋 메세지를 보면 언제 어떤 문제를 어떤 언어로 풀었는지 바로 알 수 있습니다.
 
+   <br><br>
+
+   #4.
+   ![image](https://github.com/andle7/algorithm_study/assets/128995184/eb2ec40c-5388-4fb4-aa98-8d4df29831ad)
+   > 링크를 타고 들어가서 상대방의 코드를 보고 리뷰혹은 조언도 가능합니다.<br>
+
+   <br><br>
+
+   #5.
+   ![image](https://github.com/andle7/algorithm_study/assets/128995184/d95ca2ef-1b3e-4398-a286-2451fd65d45f)
+   > 정상적으로 commit하고  push하면 녹색 불이 붙은 것을 확인할 수 있습니다.
+
+</details>
 
 <b><br><br>
 
 
 -※ 디스코드로 이사갔습니다. - <br>
-# 깃허브(GitHub) 웹훅을 활용해 슬랙(Slack)에 이벤트 전달하기<br>
 
-#1.
-![image](https://github.com/andle7/algorithm_study/assets/128995184/0c817931-33a8-443c-a191-b091e43195db)
+# ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) 깃허브(GitHub) 웹훅을 활용해 슬랙(Slack)에 이벤트 전달하기 <a name = "outline"></a>
 
-> https://hooks.slack.com/services/T075XEM0DGQ/B0783CJH1DZ/[보안사항]<br>
-> 위의 웹훅 주소를 PayloadURL에 붙여넣으시면 됩니다.<br>
-> 웹훅 주소를 유출 시킬 수 없기 때문에... 자세한 웹훅 주소는 스터디 장에게 문의하기
+<details>
+   <summary> 본문 확인 (👈 Click)</summary>
+<br />
+
+   #1.
+   ![image](https://github.com/andle7/algorithm_study/assets/128995184/0c817931-33a8-443c-a191-b091e43195db)
+
+   > https://hooks.slack.com/services/T075XEM0DGQ/B0783CJH1DZ/[보안사항]<br>
+   > 위의 웹훅 주소를 PayloadURL에 붙여넣으시면 됩니다.<br>
+   > 웹훅 주소를 유출 시킬 수 없기 때문에... 자세한 웹훅 주소는 스터디 장에게 문의하기
+
+   <br><br>
+
+   #2.
+   ![image](https://github.com/andle7/algorithm_study/assets/128995184/db4068f5-23b8-4c37-8b2c-be0fae8057ba)
+
+   > push를 할 때 마다 슬랙에 알림이 오게 됩니다.<br>
+   > 이렇게 커밋 메세지를 보면 언제 어떤 문제를 어떤 언어로 풀었는지 바로 알 수 있습니다.
+
+   <br><br>
+
+
+   #3.
+
+   ![image](https://github.com/andle7/algorithm_study/assets/128995184/99a79a57-ebb4-4642-ad04-8951d5431d6e)
+
+   > 링크를 타고 들어가서 상대방의 코드를 보고 리뷰혹은 조언도 가능합니다.<br>
+
+</details>
+
 
 <br><br>
 
-#2.
-![image](https://github.com/andle7/algorithm_study/assets/128995184/db4068f5-23b8-4c37-8b2c-be0fae8057ba)
+#  :exclamation: 기타 주의 사항 <a name = "outline"></a>
 
-> push를 할 때 마다 슬랙에 알림이 오게 됩니다.<br>
-> 이렇게 커밋 메세지를 보면 언제 어떤 문제를 어떤 언어로 풀었는지 바로 알 수 있습니다.
+<details>
+   <summary> 본문 확인 (👈 Click)</summary>
+<br />
 
-<br><br>
+   > 이클립스를 사용시에 인코딩을 UTF-8로 설정하지 않으면, 깃헙에 커밋 시에 한글에 깨지는 문제가 있습니다.<br>
+   > https://parkjye.tistory.com/35<br>
+   > 링크를 참고하여서 UTF-8로 설정합시다.
 
-
-#3.
-
-![image](https://github.com/andle7/algorithm_study/assets/128995184/99a79a57-ebb4-4642-ad04-8951d5431d6e)
-
-> 링크를 타고 들어가서 상대방의 코드를 보고 리뷰혹은 조언도 가능합니다.<br>
-
-<br><br>
-
-# 기타 주의 사항<br>
-> 이클립스를 사용시에 인코딩을 UTF-8로 설정하지 않으면, 깃헙에 커밋 시에 한글에 깨지는 문제가 있습니다.<br>
-> https://parkjye.tistory.com/35<br>
-> 링크를 참고하여서 UTF-8로 설정합시다.
-
-
-
+</details>
 
 
 
