@@ -19,5 +19,8 @@ public class p13752 {
 			System.out.println();
 		}
 		
+		
+		in.close();
+		
 	}
 }

@@ -23,6 +23,8 @@ public class p2711_1 {
 			row[1] = row[1].substring(0, indexToRemove) + row[1].substring(indexToRemove + 1);
 			System.out.println(row[1]);
 		}
+		
+		br.close();
 
 	}
 }

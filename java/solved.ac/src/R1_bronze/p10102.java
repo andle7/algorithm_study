@@ -34,5 +34,7 @@ public class p10102 {
         }
 
         System.out.println(result);
+        
+        br.close();
     }
 }

@@ -20,5 +20,7 @@ public class p2711 {
 		    arr[i][1] = arr[i][1].substring(0, indexToRemove) + arr[i][1].substring(indexToRemove + 1);             
 			System.out.println(arr[i][1]);
 		}	
+		
+		br.close();
 	}
 }

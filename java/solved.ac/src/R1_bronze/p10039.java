@@ -21,5 +21,6 @@ public class p10039 {
 		
 		System.out.println(avg);
 		
+		in.close();
 	}
 }

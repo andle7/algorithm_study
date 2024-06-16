@@ -26,5 +26,8 @@ public class p2711_2 {
                   return row[1];
               })
               .forEach(System.out::println);
+        
+        br.close();
+        
     }
 }

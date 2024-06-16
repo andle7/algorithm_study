@@ -28,5 +28,7 @@ public class p1110 {
 		
 		
 		System.out.println(cnt);
+		
+		in.close();
 	}
 }
