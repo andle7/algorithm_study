@@ -22,7 +22,7 @@
    
 </details>
 
-<br><br>
+<br>
 
 # :loudspeaker: Rule <a name = "outline"></a>
 
