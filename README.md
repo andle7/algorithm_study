@@ -1,4 +1,4 @@
-# algorithm-study
+# Algorithm Study
 
 알고리즘 스터디 :smile: <br>
 ![image](https://github.com/andle7/algorithm_study/assets/128995184/d18cd8da-34ab-4938-8aa7-3a9683766168)
