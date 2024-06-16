@@ -100,6 +100,32 @@ commit -m "[re]2024/06/14 p1000_1 -java"
   <br><br>
 
 
+# 깃허브(GitHub) 웹훅을 활용해 디스코드(Discord)에 이벤트 전달하기<br>
+
+#1.
+![image](https://github.com/andle7/algorithm_study/assets/128995184/16de882e-97cd-46c3-b69a-f6366cf2b98e)
+> https://discord.com/api/webhooks/1251734903477899285/[보안사항/github<br>
+> 위의 웹훅 주소를 PayloadURL에 붙여넣으시면 됩니다.<br>
+> Content type은 application/json으로 변경하고 저장하시면 됩니다.<br>
+> 웹훅 주소를 유출 시킬 수 없기 때문에... 자세한 웹훅 주소는 스터디 장에게 문의하기
+
+<br><br>
+
+#2.
+![image](https://github.com/andle7/algorithm_study/assets/128995184/b5badfed-346a-43ac-9de1-3eb985c0fbb9)
+> 바로 웹훅이 붙지 않아서 빨간색 느낌표가 들어가지만 commit을 하고 push하면 정상적으로 되는 것을 확인 할 수 있습니다.
+
+<br><br>
+
+#3.
+![image](https://github.com/andle7/algorithm_study/assets/128995184/d95ca2ef-1b3e-4398-a286-2451fd65d45f)
+> 정상적으로 commit하고  push하면 녹색 불이 붙은 것을 확인할 수 있습니다. 
+
+
+<b><br><br>
+
+
+
 # 깃허브(GitHub) 웹훅을 활용해 슬랙(Slack)에 이벤트 전달하기<br>
 
 #1.
