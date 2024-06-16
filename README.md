@@ -105,6 +105,7 @@ commit -m "[re]2024/06/14 p1000_1 -java"
 #1.
 ![image](https://github.com/andle7/algorithm_study/assets/128995184/16de882e-97cd-46c3-b69a-f6366cf2b98e)
 > https://discord.com/api/webhooks/1251734903477899285/[보안사항/github<br>
+> ※ 슬랙과 다르게 디스코드 휍훅 주소는 뒤에 /github을 붙여줘야 합니다.<br>
 > 위의 웹훅 주소를 PayloadURL에 붙여넣으시면 됩니다.<br>
 > Content type은 application/json으로 변경하고 저장하시면 됩니다.<br>
 > 웹훅 주소를 유출 시킬 수 없기 때문에... 자세한 웹훅 주소는 스터디 장에게 문의하기
