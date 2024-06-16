@@ -100,6 +100,20 @@ commit -m "[re]2024/06/14 p1000_1 -java"
   <br><br>
 
 
+# 깃허브(GitHub) 웹훅을 활용해 디스코드(Discord)에 이벤트 전달하기<br>
+
+![image](https://github.com/andle7/algorithm_study/assets/128995184/8b22f879-1332-472f-bbf3-41da6e968160)
+
+
+![image](https://github.com/andle7/algorithm_study/assets/128995184/d95ca2ef-1b3e-4398-a286-2451fd65d45f)
+
+
+![image](https://github.com/andle7/algorithm_study/assets/128995184/16de882e-97cd-46c3-b69a-f6366cf2b98e)
+
+
+
+
+
 # 깃허브(GitHub) 웹훅을 활용해 슬랙(Slack)에 이벤트 전달하기<br>
 
 #1.
