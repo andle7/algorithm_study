@@ -130,7 +130,7 @@
 
   <br><br>
 
-
+<img src="Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
 # 깃허브(GitHub) 웹훅을 활용해 디스코드(Discord)에 이벤트 전달하기<br>
 
 #1.
