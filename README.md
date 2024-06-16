@@ -1,6 +1,6 @@
 # algorithm-study
 
-알고리즘 스터디 :smile:
+알고리즘 스터디 :smile: <br>
 ![image](https://github.com/andle7/algorithm_study/assets/128995184/d18cd8da-34ab-4938-8aa7-3a9683766168)
 
 > ※하단에 웹훅을 하는 방법이 적혀 있습니다.
