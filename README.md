@@ -7,7 +7,18 @@
 <br>
 
 
-# :palm_tree: Purpose <a name = "outline"></a>
+
+# 📝 [목차](#index) <a name = "index"></a>
+
+- [Purpose](#purpose)
+- [Rule](#rule)
+- [Commit rule](#commit_rule)
+- [문제집&목표 리스트](#workbook_list)
+- [GitHub 웹훅을 활용해 Discord에 이벤트 전달하기](#g_webhook)
+- [GitHub 웹훅을 활용해 Slack에 이벤트 전달하기](#s_webhook)
+- [기타 주의 사항](#caution)
+
+# :palm_tree: Purpose <a name = "purpose"></a>
 
 <details>
    <summary> 본문 확인 (👈 Click)</summary>
@@ -24,7 +35,7 @@
 
 <br>
 
-# :loudspeaker: Rule <a name = "outline"></a>
+# :loudspeaker: Rule <a name = "rule"></a>
 
 <details>
    <summary> 본문 확인 (👈 Click)</summary>
@@ -55,7 +66,7 @@
 
 <br>
 
-# ✅ Commit 규칙 <a name = "outline"></a>
+# ✅ Commit 규칙 <a name = "commit_rule"></a>
 
 <details>
    <summary> 본문 확인 (👈 Click)</summary>
@@ -91,7 +102,7 @@
 
 <br>
 
-# :mountain_bicyclist: 문제집&목표 리스트 <a name = "outline"></a>
+# :mountain_bicyclist: 문제집&목표 리스트 <a name = "workbook_list"></a>
 
 <details>
    <summary> 본문 확인 (👈 Click)</summary>
@@ -134,7 +145,7 @@
 
 
 
-#  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) GitHub 웹훅을 활용해 Discord에 이벤트 전달하기 <a name = "outline"></a>
+#  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) GitHub 웹훅을 활용해 Discord에 이벤트 전달하기 <a name = "g_webhook"></a>
 
 <details>
    <summary> 본문 확인 (👈 Click)</summary>
@@ -180,7 +191,7 @@
 
 -※ 디스코드로 이사갔습니다. - <br>
 
-# ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) GitHub 웹훅을 활용해 Slack에 이벤트 전달하기 <a name = "outline"></a>
+# ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white) GitHub 웹훅을 활용해 Slack에 이벤트 전달하기 <a name = "s_webhook"></a>
 
 <details>
    <summary> 본문 확인 (👈 Click)</summary>
@@ -215,7 +226,7 @@
 
 <br><br>
 
-#  :exclamation: 기타 주의 사항 <a name = "outline"></a>
+#  :exclamation: 기타 주의 사항 <a name = "caution"></a>
 
 <details>
    <summary> 본문 확인 (👈 Click)</summary>
