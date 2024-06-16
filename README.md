@@ -97,34 +97,36 @@
    <summary> 본문 확인 (👈 Click)</summary>
 <br />
 
-스터디 주소: https://www.acmicpc.net/group/workbook/21059<br>
-> 기타 공지 사항: https://www.acmicpc.net/group/board/view/21059/38409
-<br>
+   스터디 주소: https://www.acmicpc.net/group/workbook/21059<br>
+   > 기타 공지 사항: https://www.acmicpc.net/group/board/view/21059/38409
+   <br>
 
-> 문제집을 푸는 순서는 따로 없습니다.<br>
-> 다만, 솔브닥에서 클래스 1 ~ 4 클래스<br>
-> 프로그래머스에서 1 ~ 3 레벨을 풀 정도의 실력과<br>
-> 백준에서 기업 코테로 적합한 문제를 선정해서 푸는 것을 목표로 하고,<br>
-> 아직 코테가 어려운 분들은 쉬운 문제집 부터 시작하셔도 좋습니다.
+   > 문제집을 푸는 순서는 따로 없습니다.<br>
+   > 다만, 솔브닥에서 클래스 1 ~ 4 클래스<br>
+   > 프로그래머스에서 1 ~ 3 레벨을 풀 정도의 실력과<br>
+   > 백준에서 기업 코테로 적합한 문제를 선정해서 푸는 것을 목표로 하고,<br>
+   > 아직 코테가 어려운 분들은 쉬운 문제집 부터 시작하셔도 좋습니다.
 
-<br>
+   <br>
 
-- 바킹독<br>
-    [출처]<br>
-    레포: https://github.com/encrypted-def/basic-algo-lecture<br>
-    문제집 : https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md<br>
-    유트브 : https://www.youtube.com/@BaaaaaaaaaaaaaaaaaaaaarkingDog<br>
-    > 참고 : 대회용 알고리즘도 다수 포함되어 있기 때문에 정렬 II 정도까지가 적당하지 않은가 합니다<br>
+   - 바킹독<br>
+       [출처]<br>
+       레포: https://github.com/encrypted-def/basic-algo-lecture<br>
+       문제집 : https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md<br>
+       유트브 : https://www.youtube.com/@BaaaaaaaaaaaaaaaaaaaaarkingDog<br>
+       > 참고 : 대회용 알고리즘도 다수 포함되어 있기 때문에 정렬 II 정도까지가 적당하지 않은가 합니다<br>
      
     
-- 솔브닥 클래스 1 ~ 4<br>
+   - 솔브닥 클래스 1 ~ 4<br>
 
-- 프로그래머스 1 ~ 3 레벨<br>
+   - 프로그래머스 1 ~ 3 레벨<br>
 
-- 기업 코테 관련 인기 문제집<br>
+   - 기업 코테 관련 인기 문제집<br>
 
-- 삼성 기출<br>
-  > 삼성을 목표로 하는 사람들은 푸시길 바랍니다.
+   - 삼성 기출<br>
+     > 삼성을 목표로 하는 사람들은 푸시길 바랍니다.
+
+</details>
 
   <br><br>
 
