@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.StringTokenizer;
 
 public class p10866_linkedlist {
     public static void main(String[] args) throws IOException {
@@ -15,15 +16,15 @@ public class p10866_linkedlist {
         Deque<Integer> deq = new LinkedList<>();
 
         while (N-- > 0) {
-            String[] input = br.readLine().split(" ");
-            String command = input[0];
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            String command = st.nextToken();
 
             switch (command) {
                 case "push_front":
-                    deq.addFirst(Integer.parseInt(input[1]));
+                    deq.addFirst(Integer.parseInt(st.nextToken()));
                     break;
                 case "push_back":
-                    deq.addLast(Integer.parseInt(input[1]));
+                    deq.addLast(Integer.parseInt(st.nextToken()));
                     break;
                 case "pop_front":
                     sb.append(deq.isEmpty() ? -1 : deq.pollFirst()).append("\n");
@@ -51,6 +52,7 @@ public class p10866_linkedlist {
         br.close();
     }
 }
+
 
 
 // LinkedList java 표준 라이브러리 활용
