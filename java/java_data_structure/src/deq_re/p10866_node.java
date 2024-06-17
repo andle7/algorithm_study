@@ -1,50 +1,52 @@
-package deq;
+package deq_re;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class p10866_node {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
+        StringBuilder sb = new StringBuilder();
 
+        int N = Integer.parseInt(br.readLine());
         Deque deq = new Deque();
 
-        for (int i = 0; i < N; i++) {
-            String[] input = br.readLine().split(" ");
+        while (N-- > 0) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            String command = st.nextToken();
 
-            switch (input[0]) {
+            switch (command) {
                 case "push_front":
-                    deq.push_front(Integer.parseInt(input[1]));
+                    deq.push_front(Integer.parseInt(st.nextToken()));
                     break;
                 case "push_back":
-                    deq.push_back(Integer.parseInt(input[1]));
+                    deq.push_back(Integer.parseInt(st.nextToken()));
                     break;
                 case "pop_front":
-                    System.out.println(deq.pop_front());
+                    sb.append(deq.pop_front()).append("\n");
                     break;
                 case "pop_back":
-                    System.out.println(deq.pop_back());
+                    sb.append(deq.pop_back()).append("\n");
                     break;
                 case "size":
-                    System.out.println(deq.size());
+                    sb.append(deq.size()).append("\n");
                     break;
                 case "empty":
-                    System.out.println(deq.empty());
+                    sb.append(deq.empty()).append("\n");
                     break;
                 case "front":
-                    System.out.println(deq.front());
+                    sb.append(deq.front()).append("\n");
                     break;
                 case "back":
-                    System.out.println(deq.back());
+                    sb.append(deq.back()).append("\n");
                     break;
             }
         }
-        
-        
+
+        System.out.print(sb);
         br.close();
-        
     }
 }
 

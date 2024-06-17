@@ -1,4 +1,4 @@
-package deq;
+package deq_re;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,75 +7,49 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 public class p10866_linkedlist {
-	public static void main(String[] args) throws IOException {
-		
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		
-		Deque<Integer> deq = new LinkedList<>();
-		
-		for(int i = 0; i<N; i++) {
-			
-			String[] input = br.readLine().split(" "); 
-			
-			switch (input[0]) {
-			
-				case "push_front":
-						deq.addFirst(Integer.parseInt(input[1]));
-						break;
-					
-				case "push_back": 
-						deq.addLast(Integer.parseInt(input[1]));
-						break;
-						
-				case "pop_front":
-						if(deq.isEmpty()) {
-							System.out.println(-1);
-						}else {
-							System.out.println(deq.pollFirst());
-						}
-						break;
-						
-				case "pop_back":
-						if(deq.isEmpty()) {
-							System.out.println(-1);
-						}else {
-							System.out.println(deq.pollLast());
-						}
-						break;
-						
-				case "size":
-						System.out.println(deq.size());
-						break;
-						
-				case "empty":
-						if(deq.isEmpty()) {
-							System.out.println(1);
-						}else {
-							System.out.println(0);						
-						}
-						break;
-					
-				case "front":
-						if(deq.isEmpty()) {
-							System.out.println(-1);
-						}else {
-							System.out.println(deq.peekFirst());
-						}
-						break;
-				case "back":
-						if(deq.isEmpty()) {
-							System.out.println(-1);
-						}else {
-							System.out.println(deq.peekLast());
-						}
-						break;
-			}			
-		}
-		
-		br.close();
-		
-	}
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
+
+        int N = Integer.parseInt(br.readLine());
+        Deque<Integer> deq = new LinkedList<>();
+
+        while (N-- > 0) {
+            String[] input = br.readLine().split(" ");
+            String command = input[0];
+
+            switch (command) {
+                case "push_front":
+                    deq.addFirst(Integer.parseInt(input[1]));
+                    break;
+                case "push_back":
+                    deq.addLast(Integer.parseInt(input[1]));
+                    break;
+                case "pop_front":
+                    sb.append(deq.isEmpty() ? -1 : deq.pollFirst()).append("\n");
+                    break;
+                case "pop_back":
+                    sb.append(deq.isEmpty() ? -1 : deq.pollLast()).append("\n");
+                    break;
+                case "size":
+                    sb.append(deq.size()).append("\n");
+                    break;
+                case "empty":
+                    sb.append(deq.isEmpty() ? 1 : 0).append("\n");
+                    break;
+                case "front":
+                    sb.append(deq.isEmpty() ? -1 : deq.peekFirst()).append("\n");
+                    break;
+                case "back":
+                    sb.append(deq.isEmpty() ? -1 : deq.peekLast()).append("\n");
+                    break;
+            }
+        }
+
+        System.out.print(sb);
+        
+        br.close();
+    }
 }
 
 
