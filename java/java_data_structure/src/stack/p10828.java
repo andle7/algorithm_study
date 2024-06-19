@@ -1,4 +1,4 @@
-package R2_silver;
+package stack;
 
 import java.io.BufferedReader;
 import java.io.IOException;
