@@ -41,6 +41,8 @@ public class p10828_node {
                     break;
             }
         }
+        
+        br.close();
         System.out.print(sb.toString());
     }
 }
