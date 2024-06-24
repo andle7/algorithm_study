@@ -1,0 +1,20 @@
+2024/06/25
+Mysql 기초 공부
+
+쿼리문 기본 구조
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+
+SQL 연산 순서
+FROM -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY
+
+연산자 우선 순위('괄낫앤오얼')
+() -> NOT -> AND -> OR
+
+
+
+
