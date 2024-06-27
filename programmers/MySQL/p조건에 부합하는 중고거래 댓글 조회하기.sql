@@ -1,6 +1,3 @@
-
-
-
 SELECT A.TITLE,
        A.BOARD_ID,
        B.REPLY_ID,
