@@ -1,31 +1,30 @@
-package R1_silver;
+package R2_silver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
-public class p2751_ArraysSort {
+public class p2751_CountingSort {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         
         int N = Integer.parseInt(br.readLine());
-        int[] numbers = new int[N];
+        int[] arr = new int[2000001];
         
         for (int i = 0; i < N; i++) {
-            numbers[i] = Integer.parseInt(br.readLine());
+            arr[Integer.parseInt(br.readLine()) + 1000000]++;
         }
         
-        Arrays.sort(numbers);
-        
-        for (int num : numbers) {
-            sb.append(num).append('\n');
+        for (int i = 0; i < arr.length; i++) {
+            while (arr[i] > 0) {
+                sb.append(i - 1000000).append('\n');
+                arr[i]--;
+            }
         }
         
         System.out.print(sb);
     }
 }
 
-
-// 이렇게 만들면 속도가 많이 느림.
+// 이렇게 CountingSort로 해야 빠름
