@@ -37,5 +37,7 @@ public class p11660 {
 			System.out.println(result);
 		}
 	
+		
+		br.close();
 	}
 }
