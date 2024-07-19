@@ -1,0 +1,25 @@
+SELECT BOARD_ID, WRITER_ID, TITLE, PRICE,
+       IF(STATUS = 'SALE', '판매중',
+           IF(STATUS = 'RESERVED', '예약중',
+               IF(STATUS = 'DONE', '거래완료', '알 수 없음'))) AS STATUS
+FROM USED_GOODS_BOARD
+WHERE CREATED_DATE = '2022-10-05'
+ORDER BY BOARD_ID DESC;
+
+/*
+1단계
+SELECT BOARD_ID, WRITER_ID, TITLE, CONTENTS, PRICE, CREATED_DATE, STATUS, VIEWS
+FROM USED_GOODS_BOARD;
+
+2단계
+SELECT BOARD_ID, WRITER_ID, TITLE, PRICE,
+       IF(STATUS = 'SALE', '판매중',
+           IF(STATUS = 'RESERVED', '예약중',
+               IF(STATUS = 'DONE', '거래완료', '알 수 없음'))) AS STATUS
+FROM USED_GOODS_BOARD
+WHERE CREATED_DATE = '2022-10-05'
+ORDER BY BOARD_ID DESC;
+
+*/
+
+/* https://school.programmers.co.kr/learn/courses/30/lessons/164672 */
