@@ -2,7 +2,7 @@ package R1_bronze;
 
 import java.util.Scanner;
 
-public class p10093 {
+public class p10093_1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         long A = in.nextLong();
